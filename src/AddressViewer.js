@@ -24,7 +24,8 @@ export default ({addressCoord}) => {
         if (loading) return null;
         if (error) return `Error!: ${error}`;
         return (
-          <p>Töölöntullille: {calculateAverageDurationMins(data)} minutes</p>
+          <p>Töölöntullille:
+             {calculateAverageDurationMins(data)} minutes</p>
       )}}
     </Query>
   </div>)
